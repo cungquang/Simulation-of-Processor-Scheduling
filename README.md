@@ -46,11 +46,11 @@ This program contains 6 files zipped in the folder Process Scheduling Simulation
 - Send/Receive/Reply message: Maximum message length is 40 characters. The last message sent will be shown only when the process occupies the CPU.
 - Sending a message to an invalid process ID unblocks the first PCB on the Receiving Block-list to prevent simulation crashes.
 
-## Major Problems of Simulation
+## Potential Problems of Simulation
 
 ### Memory Leaks Problem
 
-The simulation retains 2 memory locations that cannot be freed when an ERROR OCCURS.
+The simulation may retains 2 memory locations that cannot be freed when an ERROR OCCURS.
 
 
 
